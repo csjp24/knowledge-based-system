@@ -53,12 +53,14 @@ class ASDSocialCueAgent:
         harm_keywords = ["hurting", "hit", "hits", "self-harm", "harm"]
         fixation_keywords = ["keeps talking", "repeats", "again and again", "fixated", "same"]
         transition_keywords = ["move to", "next activity", "continue", "questions 4", "transition"]
+        overload_keywords = ["long explanation", "many instructions", "confused", "stops responding"]
 
         has_sensory = any(word in text for word in sensory_keywords)
         has_meltdown = any(word in text for word in meltdown_keywords)
         has_harm = any(word in text for word in harm_keywords) and "not hurting" not in text
         has_fixation = any(word in text for word in fixation_keywords)
         has_transition = any(word in text for word in transition_keywords)
+        has_overload = any(word in text for word in overload_keywords)
         has_social_misunderstanding = any(
             word in text
             for word in ["classmate", "rude", "hello", "looks away", "flat tone", "social"]
@@ -103,6 +105,12 @@ class ASDSocialCueAgent:
             call(
                 "The task contains multiple parts, so it should be chunked.",
                 step_chunker("question set"),
+            )
+
+        if has_overload and not stop_session:
+            call(
+                "The user may be confused by too many instructions. Use one short step.",
+                step_chunker("instruction set"),
             )
 
         combined = " ".join(tool_outputs)
