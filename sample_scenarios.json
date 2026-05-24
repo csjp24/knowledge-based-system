@@ -22,6 +22,11 @@
     "title": "Meltdown after interruption",
     "scenario": "A child was lining up toy cars. Another child moved one car. The child screams, cries, and drops to the floor, but is not hurting anyone.",
     "expected_priority": "Calm protocol and safe self-regulation"
+  },
+  {
+    "id": "S5",
+    "title": "Long instructions causing confusion",
+    "scenario": "A teacher gives Daniel a long explanation with many instructions at once. Daniel looks confused and stops responding.",
+    "expected_priority": "Short, direct instructions with one clear next step"
   }
 ]
-
