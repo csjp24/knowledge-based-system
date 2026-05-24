@@ -1,7 +1,7 @@
 # Sample Traces After Rewrite
 These are corrected traces after applying the GDVRR rewrite. Each section shows how the AI should behave after the rules, prompt, or tool logic is fixed.
 
-# Member 1 - S1: Sensory Priority Conflict
+# Donny - S1: Sensory Priority Conflict
 Scenario: Adam is in a crowded cafeteria with bright lights. A classmate says hello, but Adam looks away and answers in a flat tone. The classmate thinks Adam is rude. Adam starts covering his ears.
 
 # Corrected AI Trace
@@ -24,7 +24,7 @@ Anomaly fixed: Rule Subsumption / Priority Conflict
 
 Expert rules followed: R4, R10, R11
 
-# Member 2 - S2: Hyperfixation and Refusal to Move On
+# Corina - S2: Hyperfixation and Refusal to Move On
 Scenario: Mira keeps talking about train schedules. The teacher wants to move to the next activity, but Mira repeats the same train facts again and again.
 
 # Corrected AI Trace
@@ -47,7 +47,7 @@ Anomaly fixed: Procedural Routing Failure
 
 Expert rules followed: R5, R8, R9
 
-# Member 3 - S4: Meltdown Support Sequence
+# Safiah - S4: Meltdown Support Sequence
 Scenario: A child was lining up toy cars. Another child moved one car. The child screams, cries, and drops to the floor, but is not hurting anyone.
 
 # Corrected AI Trace
@@ -70,7 +70,7 @@ Anomaly fixed: Premature Convergence / Procedural Routing Failure
 
 Expert rules followed: R5, R6, R7, R11
 
-# Member 4 - S5: Long Instructions and Communication Style
+# Hifzi - S5: Long Instructions and Communication Style
 Scenario: A teacher gives Daniel a long explanation with many instructions at once. Daniel looks confused and stops responding.
 
 # Corrected AI Trace
@@ -93,7 +93,7 @@ Anomaly fixed: Working Memory Degradation / Format Constraint Failure
 
 Expert rules followed: R1, R2, R3
 
-# Member 5 - S3: Task Transition and Step Chunking
+# Dayang - S3: Task Transition and Step Chunking
 Scenario: A student completed questions 1 to 3. The teacher wants the student to continue with questions 4 to 6 without causing overwhelm.
 
 # Corrected AI Trace
