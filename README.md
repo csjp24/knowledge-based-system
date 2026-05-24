@@ -127,11 +127,11 @@ Each member can audit one scenario for the individual Table 1 component:
 
 | Member | Scenario | Focus |
 |---|---|---|
-| Member 1 | S1 | Sensory priority conflict |
-| Member 2 | S2 | Hyperfixation and refusal to move on |
-| Member 3 | S4 | Meltdown support sequence |
-| Member 4 | S5 | Long instructions and communication style |
-| Member 5 | S3 | Task transition and step chunking |
+| Donny | S1 | Sensory priority conflict |
+| Corina | S2 | Hyperfixation and refusal to move on |
+| Safiah | S4 | Meltdown support sequence |
+| Hifzi | S5 | Long instructions and communication style |
+| Dayang | S3 | Task transition and step chunking |
 
 ## GDVRR Protocol Support
 
