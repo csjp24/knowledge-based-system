@@ -1,0 +1,85 @@
+{
+  "domain": "Autism Spectrum Disorder social cue training",
+  "expert_source": "Dr. Atiyah interview summary provided by the student group",
+  "declarative_rules": [
+    {
+      "id": "R1",
+      "rule": "If communicating with an autistic individual, use short, simple, direct sentences.",
+      "source_point": "Expert advised that long, polite, or flowery conversational fillers can confuse or be ignored."
+    },
+    {
+      "id": "R2",
+      "rule": "If a task has multiple parts, break it into smaller sets and give only one set at a time.",
+      "source_point": "Expert gave the example of completing questions 1 to 3 first before moving to questions 4 to 7."
+    },
+    {
+      "id": "R3",
+      "rule": "If the individual needs more processing time, wait patiently and avoid rushing.",
+      "source_point": "Expert explained that autistic children may have short attention span and take longer to process information."
+    },
+    {
+      "id": "R4",
+      "rule": "If the environment is noisy, crowded, very bright, or has high-pitched sounds, treat it as a possible distress trigger.",
+      "source_point": "Expert highlighted sensory sensitivity to noise, crowds, high-pitched sounds, and bright lights."
+    },
+    {
+      "id": "R5",
+      "rule": "If the individual is distressed, do not yell, shame, or use force to make them calm down.",
+      "source_point": "Expert advised caregivers to remain calm and avoid shouting or physical force."
+    },
+    {
+      "id": "R6",
+      "rule": "If the individual is having a tantrum or meltdown, allow self-regulation as long as they are not harming themselves or others.",
+      "source_point": "Expert explained that the individual should be allowed to release stress safely."
+    },
+    {
+      "id": "R7",
+      "rule": "After the individual has calmed down, give a simple explanation or repair the social situation without shame.",
+      "source_point": "Expert advised explaining only after the individual has calmed."
+    },
+    {
+      "id": "R8",
+      "rule": "If the individual is fixated on one topic, first acknowledge their point, then gently redirect to the new topic.",
+      "source_point": "Expert suggested saying that the person's point is correct, then moving to the next topic."
+    },
+    {
+      "id": "R9",
+      "rule": "If redirection fails and the individual remains stuck in a repetitive loop, stop the session and try again another day.",
+      "source_point": "Expert advised not forcing movement when the individual is completely stuck."
+    },
+    {
+      "id": "R10",
+      "rule": "If social behavior seems unusual, do not assume disrespect. Some autistic individuals may use different eye contact, tone, or intonation.",
+      "source_point": "Expert described differences in eye contact, tone, and intonation."
+    },
+    {
+      "id": "R11",
+      "rule": "If two rules apply, sensory safety and emotional regulation take priority over social cue coaching.",
+      "source_point": "Derived from expert emphasis on distress triggers and calming before explanation."
+    },
+    {
+      "id": "R12",
+      "rule": "The system must personalize support because ASD is a spectrum and individuals differ in difficulty level and behavior.",
+      "source_point": "Expert explained that not all autistic individuals are the same."
+    }
+  ],
+  "system_constraints": [
+    "Use calm, clear, structured, and direct language.",
+    "Use short sentences.",
+    "Avoid long social explanations during distress.",
+    "Do not shame, blame, or label the user as rude.",
+    "Do not provide medical diagnosis or medication advice.",
+    "Prioritize safety and sensory regulation before teaching social behavior.",
+    "Use predictable steps: acknowledge, explain, guide one next action."
+  ],
+  "tools": [
+    "Sensory_Distress_Check",
+    "Step_Chunker",
+    "Social_Cue_Breakdown",
+    "Transition_Support",
+    "Hyperfixation_Redirect",
+    "Meltdown_Calm_Protocol",
+    "Output_Simplifier"
+  ]
+}
+

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S1",
+    "title": "Misunderstood social cue in a noisy cafeteria",
+    "scenario": "Adam is in a crowded cafeteria with bright lights. A classmate says hello, but Adam looks away and answers in a flat tone. The classmate thinks Adam is rude. Adam starts covering his ears.",
+    "expected_priority": "Sensory regulation before social cue coaching"
+  },
+  {
+    "id": "S2",
+    "title": "Hyperfixation on one topic",
+    "scenario": "Mira keeps talking about train schedules. The teacher wants to move to the next activity, but Mira repeats the same train facts again and again.",
+    "expected_priority": "Acknowledge, redirect, then stop if stuck"
+  },
+  {
+    "id": "S3",
+    "title": "Transition from one task to another",
+    "scenario": "A student completed questions 1 to 3. The teacher wants the student to continue with questions 4 to 6 without causing overwhelm.",
+    "expected_priority": "Step-by-step transition"
+  },
+  {
+    "id": "S4",
+    "title": "Meltdown after interruption",
+    "scenario": "A child was lining up toy cars. Another child moved one car. The child screams, cries, and drops to the floor, but is not hurting anyone.",
+    "expected_priority": "Calm protocol and safe self-regulation"
+  }
+]
+
